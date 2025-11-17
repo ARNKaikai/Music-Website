@@ -1,0 +1,66 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+	<meta name= "Author" content= "Abdul-Rhaman Kaikai">
+	<meta name= "Description" content= "How to get our contacts in case of anything goes wrong or someone is breaking the rules.">
+    <style>
+        body
+		
+{
+	 background-image: url('https://cdn.pixabay.com/photo/2023/03/13/11/14/music-7849577_1280.jpg');
+            background-color: #f4e1d2; 
+            background-size: cover;
+            background-repeat: no-repeat;
+			background-attachment: fixed;
+        }		
+		{ font-family: Arial, sans-serif; line-height: 1.6; }
+        fieldset { margin-bottom: 20px; padding: 15px; }
+        legend { font-weight: bold; }
+        label { display: block; margin: 8px 0 4px; }
+        input, textarea, select { width: 100%; padding: 8px; margin-bottom: 12px; }
+        button { padding: 10px 20px; background-color: blue; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: darkblue; }
+        nav a { margin-right: 15px; text-decoration: none; color: blue; }
+		
+		h1 {
+            color: purple;
+            font-size: 36px;
+        }
+	
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <nav>
+        <a href="Music.html">Home</a>
+    </nav>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+        </fieldset>
+
+        <fieldset>
+            <legend>Message Details</legend>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </fieldset>
+
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
